@@ -5,6 +5,7 @@ Deze repository bevat mijn project voor WebAdvanced
 ## Bronnen
 
 https://palettes.shecodes.io/palettes/1313#palette
+
 https://www.w3schools.com/js/js_string_templates.asp
 ## Checklist aangehaalde punten
 
