@@ -1,0 +1,85 @@
+/* Button stijlen */
+button {
+  padding: 5px 10px;
+  background-color: #007bff; /* Lichtere blauwe kleur */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+/* Hover effect voor de button */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Hoofdinhoud en formulier stijlen */
+.content {
+  padding: 20px;
+  background-color: #333333;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+/* Formulier stijlen */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px; /* Iets meer ruimte */
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Lichtere rand */
+  border-radius: 5px;
+  background-color: #e9ecef; /* Lichtere achtergrondkleur voor inputvelden */
+}
+/* Submit button stijlen */
+input[type="submit"] {
+  background-color: #385170;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Hover effect voor de submit button */
+input[type="submit"]:hover {
+  background-color: #142d4c;
+  transition: background-color 0.3s;
+}
+
+/* Footer stijlen */
+footer {
+  background-color: #222;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* kleuren pallet */
+.first-color {
+  background: #ececec;
+}
+
+.second-color {
+  background: #9fd3c7;
+}
+
+.third-color {
+  background: #385170;
+}
+
+.fourth-color {
+  background: #142d4c;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/GameForm.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="home-button">Home</a>
+      <hr class="header-line" />
+    </header>
+    <main>
+     <div class="content">
+            <h1>Videogame Form</h1>
+        <form>
+            <label for="name">Gebruikersnaam:</label>
+            <input type="text" id="name" name="userName" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="platforms">Platform:</label>
+            <select id="platforms" name="platforms" multiple>
+            <option value="pc">PC</option>
+            <option value="playstation">PlayStation</option>
+            <option value="xbox">Xbox</option>
+            <option value="nintendo">Nintendo</option>
+            <option value="mobile">Mobile</option>
+            <option value="vr">VR</option>
+            <option value="handheld">Handheld</option>
+            </select>
+            <br><br>
+
+            <label for="favorite-game-store">Favoriete game winkel:</label>
+            <select id="favorite-game-store" name="favorite-game-store">
+            <option value="steam">Steam</option>
+            <option value="playstation-store">PlayStation Store</option>
+            <option value="xbox-store">Xbox Store</option>
+            <option value="nintendo-eshop">Nintendo eShop</option>
+            <option value="epic-games-store">Epic Games Store</option>
+            <option value="gog">GOG</option>
+            <option value="amazon">Amazon</option>
+            </select>
+            </select>
+            <br><br>
+
+            <label for="favorite-game">Favoriete game:</label>
+            <input type="text" id="favorite-game" name="favorite-game">
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>&copy; 2024 Aidan De Greef</footer>
+</div>
+  </body>
+</html>

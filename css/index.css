@@ -10,8 +10,29 @@ p {
 body {
   font-family: Arial, sans-serif;
   background-color: #333333;
+  overflow-x: hidden;
 }
-
+/* Home knop stylen */
+.home-button {
+  display: inline-block;
+  background-color: #385170;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.home-button:hover {
+  background-color: #142d4c;
+  transition: background-color 0.3s;
+}
+/* Centreren van de pagina */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* Headers stylen */
 h1 {
   font-size: 28px;
@@ -47,9 +68,11 @@ a:hover {
 /* Stylen van de container */
 .container {
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
   align-items: center;
   height: 80px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .box {
