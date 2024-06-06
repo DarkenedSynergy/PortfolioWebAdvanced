@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+/* stijlen van het gebied waar de afbeeldingen komen */
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+/* Stijlen van de afbeeldingen */
+img {
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Stijlen van de extra footer */
+.stickyfooter {
+  text-align: center;
+  padding: 0px;
+  background-color: rgba(34, 34, 34, 0.5);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 38px;
+}
+
+/* voeg een leuke CSS animatie toe aan de laad meer knop */
+#loadButton:hover {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+}
+/* geef de knop een tweede animatie op klik*/
+#loadButton:active {
+  animation-name: shake;
+  animation-duration: 0.5s;
+}
+
+/* maak spring animate */
+@keyframes bounce {
+  0% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-5px); 
+  }
+  100% {
+    transform: translateY(0); /
+  }
+}
+/* maak schuif animate */
+@keyframes shake {
+  0% {
+    transform: translateX(0); 
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}

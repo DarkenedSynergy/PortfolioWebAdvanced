@@ -119,9 +119,10 @@ footer {
   padding: 10px;
   background-color: #222;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 1;
 }
 
 /* kleuren pallet */
