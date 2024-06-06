@@ -33,7 +33,15 @@ body {
   align-items: center;
   justify-content: center;
 }
-/* Headers stylen */
+/* Header stylen */
+header {
+  background-color: #333333;
+  padding-top: 4px;
+  padding: 0px;
+  text-align: left;
+  color: white;
+}
+/* Headings stylen */
 h1 {
   font-size: 28px;
   font-weight: bold;

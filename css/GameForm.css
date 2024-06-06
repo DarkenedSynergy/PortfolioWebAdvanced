@@ -12,9 +12,17 @@ button {
 button:hover {
   background-color: #f31e13;
 }
-
+/* Voeg een coole image toe als achtergrond */
+body {
+  background-image: url("../images/venatorBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 /* Hoofdinhoud en formulier stijlen */
 .content {
+  opacity: 0.85;
   padding: 20px;
   background-color: #333333;
   margin: 20px auto;
@@ -55,17 +63,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #142d4c;
   transition: background-color 0.3s;
-}
-
-/* Footer stijlen */
-footer {
-  background-color: #222;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
 }
 
 /* kleuren pallet */
