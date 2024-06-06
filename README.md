@@ -46,7 +46,7 @@ Consumer methods
 
 Async & Await
 
-Self executing function
+Self executing function -- index.js een zelfuitvoerende functie dat een simpel bericht logt in de console
 
 Fetch om data op te halen
 
