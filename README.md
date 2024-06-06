@@ -14,6 +14,8 @@ https://www.w3schools.com/js/js_validation.asp
 
 https://www.w3schools.com/jsref/prop_win_localstorage.asp
 
+https://www.w3schools.com/js/js_callback.asp
+
 Met behulp van GitHub Copilot.
 
 ## Checklist aangehaalde punten
@@ -34,13 +36,13 @@ Destructuring
 
 Spread & Rest operator
 
-Iteration over een array
+Iteration over een array -- Katten.js foreach itereert de gegevens per afbeelding
 
-Arrow function
+Arrow function -- Katten.js een eventlistener dat wacht op een klik event en dmv arrow functions een alert doorstuurt
 
-Callback function
+Callback function -- Katten.js functie getCats word aangeroepen dmv een eventlistener
 
-Promise
+Promise -- Katten.js functie getCats gebruikt then om data op te halen en catch voor errors op te vangen
 
 Consumer methods
 
@@ -48,9 +50,9 @@ Async & Await
 
 Self executing function -- index.js een zelfuitvoerende functie dat een simpel bericht logt in de console
 
-Fetch om data op te halen
+Fetch om data op te halen -- Katten.js fetch word gebruikt om data op te halen van een API
 
-JSON manipuleren en weergeven
+JSON manipuleren en weergeven -- Katten.js haalt data op van JSON en haalt hieruit de afbeelding URL
 
 Basis CSS Animatie -- index.css het veranderen van de kleur van knoppen wanneer er over deze wordt gehoverd
 
@@ -58,4 +60,4 @@ Gebruiken van een flexbox of CSS grid -- index.html/index.css de knoppen die lin
 
 Gebruik van LocalStorage -- Toegepast in GameForm.js, slaagt de ingevoerde gegevens op en geeft de mogelijkheid om deze te "clearen"
 
-Progress: 10/20
+Progress: 16/20
