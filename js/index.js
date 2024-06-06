@@ -21,3 +21,7 @@ function displayWelcomeMessage() {
   console.log(welcomeMessage);
 }
 displayWelcomeMessage();
+// Zelfuitvoerende functie die een bericht toont in de console.
+(function () {
+  console.log("Wow, dit voert zichzelf uit!");
+})();

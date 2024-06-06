@@ -1,7 +1,7 @@
 /* Button stijlen */
 button {
   padding: 5px 10px;
-  background-color: #007bff; /* Lichtere blauwe kleur */
+  background-color: #ee4f33;
   color: white;
   border: none;
   border-radius: 5px;
@@ -10,7 +10,7 @@ button {
 }
 /* Hover effect voor de button */
 button:hover {
-  background-color: #0056b3;
+  background-color: #f31e13;
 }
 
 /* Hoofdinhoud en formulier stijlen */
@@ -27,9 +27,9 @@ form {
   display: flex;
   flex-direction: column;
 }
-
+/* ruimte tussen label en inputveld */
 label {
-  margin-bottom: 8px; /* Iets meer ruimte */
+  margin-bottom: 8px;
 }
 
 input[type="text"],
@@ -37,9 +37,9 @@ input[type="email"],
 select {
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #ccc; /* Lichtere rand */
+  border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #e9ecef; /* Lichtere achtergrondkleur voor inputvelden */
+  background-color: #e9ecef;
 }
 /* Submit button stijlen */
 input[type="submit"] {
@@ -50,6 +50,7 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
+
 /* Hover effect voor de submit button */
 input[type="submit"]:hover {
   background-color: #142d4c;
