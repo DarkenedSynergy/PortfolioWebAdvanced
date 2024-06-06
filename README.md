@@ -54,7 +54,7 @@ Fetch om data op te halen -- Katten.js fetch word gebruikt om data op te halen v
 
 JSON manipuleren en weergeven -- Katten.js haalt data op van JSON en haalt hieruit de afbeelding URL
 
-Basis CSS Animatie -- index.css het veranderen van de kleur van knoppen wanneer er over deze wordt gehoverd
+Basis CSS Animatie -- index.css het veranderen van de kleur van knoppen wanneer er over deze wordt gehoverd/ Katten.js bevat een laadknop met enkele "geavanceerdere" CSS animaties
 
 Gebruiken van een flexbox of CSS grid -- index.html/index.css de knoppen die linken naar andere pagina's staan in een flexbox
 
