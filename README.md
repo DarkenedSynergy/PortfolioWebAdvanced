@@ -58,4 +58,4 @@ Gebruiken van een flexbox of CSS grid -- index.html/index.css de knoppen die lin
 
 Gebruik van LocalStorage -- Toegepast in GameForm.js, slaagt de ingevoerde gegevens op en geeft de mogelijkheid om deze te "clearen"
 
-Progress: 9/20
+Progress: 10/20
