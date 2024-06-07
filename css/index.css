@@ -47,8 +47,13 @@ h1 {
   font-weight: bold;
   color: whitesmoke;
   margin-bottom: 10px;
+  text-align: center;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
-
+#MainHeading:hover {
+  color: #f39c12; /* Verander de kleur bij hover */
+  transform: rotate(360deg); /* Voer een draaiende animatie uit bij hover */
+}
 h2 {
   font-size: 20px;
   font-weight: bold;
