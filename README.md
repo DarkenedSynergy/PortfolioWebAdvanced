@@ -1,6 +1,6 @@
 # PortfolioWebAdvanced
 
-Deze repository bevat mijn project voor WebAdvanced
+Deze repository bevat mijn project voor WebAdvanced, gemaakt met behulp van vele bronnen, GitHub Copilot en ChatGPT. Dit project bevat een indexpagina, en enkele pagina's dat mij interesseerden om uit te werken zoals, mijn formpagina met "gamethema" een pagina om naar games te zoeken, en een pagina dat puur gefocust is op het ophalen van gegevens van een API (kattenpagina). Natuurlijk hebben deze te maken met de te gebruiken onderwerpen. 
 
 ## Bronnen
 
@@ -17,6 +17,10 @@ https://www.w3schools.com/jsref/prop_win_localstorage.asp
 https://www.w3schools.com/js/js_callback.asp
 
 https://www.w3schools.com/js/js_async.asp
+
+https://chatgpt.com/share/5eec2399-d15a-48cc-b13b-4b8daf29bb4a
+
+https://chatgpt.com/share/57de2add-8ee1-45b9-950b-d0cd684e12be
 
 https://rawg.io/apidocs
 
