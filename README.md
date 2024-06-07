@@ -32,11 +32,11 @@ Gebruiken van een constante -- index.js de kleur die links moeten aannemen word 
 
 Gebruiken van template literals -- index.js het afprinten van een welkomsbericht in de console
 
-Destructuring
+Destructuring -- GameCatalog.js word toegepast in de functies findgGames en displayGames
 
-Spread & Rest operator
+Spread & Rest operator -- GameCatalog.js gebruikt om de gegevens weer te geven in de HTML van de gameCard
 
-Iteration over een array -- Katten.js foreach itereert de gegevens per afbeelding
+Iteration over een array -- Katten.js foreach itereert de gegevens per afbeelding, Gamecatalog.js gebruikt dit ook
 
 Arrow function -- Katten.js een eventlistener dat wacht op een klik event en dmv arrow functions een alert doorstuurt
 
@@ -44,9 +44,9 @@ Callback function -- Katten.js functie getCats word aangeroepen dmv een eventlis
 
 Promise -- Katten.js functie getCats gebruikt then om data op te halen en catch voor errors op te vangen
 
-Consumer methods
+Consumer methods -- GameCatalog.js gebruikt map om over een array van data te gaan
 
-Async & Await
+Async & Await -- Gamecatalog.js de functie findGames past deze toe
 
 Self executing function -- index.js een zelfuitvoerende functie dat een simpel bericht logt in de console
 
@@ -60,4 +60,4 @@ Gebruiken van een flexbox of CSS grid -- index.html/index.css de knoppen die lin
 
 Gebruik van LocalStorage -- Toegepast in GameForm.js, slaagt de ingevoerde gegevens op en geeft de mogelijkheid om deze te "clearen"
 
-Progress: 16/20
+Progress: 20/20
