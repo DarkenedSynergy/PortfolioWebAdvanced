@@ -16,6 +16,10 @@ https://www.w3schools.com/jsref/prop_win_localstorage.asp
 
 https://www.w3schools.com/js/js_callback.asp
 
+https://www.w3schools.com/js/js_async.asp
+
+https://rawg.io/apidocs
+
 Met behulp van GitHub Copilot.
 
 ## Checklist aangehaalde punten
