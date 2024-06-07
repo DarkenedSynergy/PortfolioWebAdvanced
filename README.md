@@ -20,6 +20,8 @@ https://www.w3schools.com/js/js_async.asp
 
 https://rawg.io/apidocs
 
+https://thecatapi.com/
+
 Met behulp van GitHub Copilot.
 
 ## Checklist aangehaalde punten
