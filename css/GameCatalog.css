@@ -1,0 +1,61 @@
+/* stylen van de body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#search-input {
+  width: 300px;
+  padding: 10px;
+}
+
+#search-button {
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* stylen van de flex container */
+#games-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+/* stylen van de game card */
+.game-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+/* afbeelding correct weergeven */
+.game-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+/* stylen van de links in de card */
+.game-card a {
+  display: block;
+  margin-top: 10px;
+  color: #5197e2;
+  text-decoration: none;
+}
+
+.game-card a:hover {
+  text-decoration: underline;
+}
